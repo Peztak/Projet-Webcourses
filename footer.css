@@ -1,0 +1,12 @@
+#pied_de_page {
+    text-align: center;
+    font-weight: bold;
+    background-color: blue;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+}
