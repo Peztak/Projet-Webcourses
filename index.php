@@ -15,19 +15,22 @@
 		<!-- appel pour le menu du site -->
 		<?php echo include("menu.php"); ?>
 
-		<div id="corps">
+		<!-- appel pour le menu du site -->
+		<?php echo include("slider.php"); ?>
 
+		<div id="corps">
 			<p>Ce site est dédié aux coureurs amateurs et professionnels
-				\ncherchant à participer à différentes courses au niveau national.
-				<br />
-				\nPour vous aidez, un calendrier évènementiel présentant les courses par 
-				\nrégions, dates et lieux est à votre disposition.
-				\nDes informations par club vous sont présentés (nombre d’adhérents, classement)
-				\nDans votre espace personnel, vous trouverez le bulletin d’inscription pour la 
-				\nparticipation à un évènement, vos statistiques de courses, vos classements.
-				<br />
-				\nPour nous contacter, vous pouvez utiliser l’onglet contact ou bien nous 
-				\njoindre par email à evenementiel_sio@sitewebdescourses.fr
+			cherchant à participer à différentes courses au niveau national.
+			<br />
+			Pour vous aidez, un calendrier évènementiel présentant les courses par 
+			régions, dates et lieux est à votre disposition.
+			<br />
+			Des informations par club vous sont présentés (nombre d’adhérents, classement)
+			Dans votre espace personnel, vous trouverez le bulletin d’inscription pour la 
+			participation à un évènement, vos statistiques de courses, vos classements.
+			<br />
+			Pour nous contacter, vous pouvez utiliser l’onglet contact ou bien nous 
+			joindre par email à evenementiel_sio@sitewebdescourses.fr
 			</p>
 		</div>
 		<!-- pied de page du site -->

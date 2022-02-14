@@ -10,3 +10,12 @@
     left: 0;
     bottom: 0;
 }
+a {
+    color: white;
+}
+a.Legal {
+    margin: 5px;
+}
+a.Legal:hover {
+    color: black;
+}
