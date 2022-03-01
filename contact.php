@@ -2,10 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="title.css">
 	<link rel="stylesheet" type="text/css" href="contact.css">
 	<title>webcourses</title>
 </head>
 <body>
+	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
+
+	<!-- appel pour le menu du site -->
+	<?php echo include("menu.php"); ?>
+
 	<div class="container">
 
     	<label for="fname">First Name</label>
@@ -29,7 +35,8 @@
     	<input type="submit" value="Envoyez">
 
       <a href="index.php">Cliquez içi pour revenir à la page d'acceuil</a>
-
 	</div>
+	<!-- pied de page du site (footer)-->
+	<?php echo include("pied_de_page.php"); ?>
 </body>
 </html>

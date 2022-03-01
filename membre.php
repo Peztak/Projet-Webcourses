@@ -1,7 +1,7 @@
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Connexion en tant que membre</button>
+<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Connexion en tant que membre</button>
 
-	<div id="id01" class="modal">
-  		<span onclick="document.getElementById('id01').style.display='none'"
+	<div id="id02" class="modal">
+  		<span onclick="document.getElementById('id02').style.display='none'"
 		class="close" title="Close Modal">&times;</span>
 
   	<form class="modal-content animate">
@@ -23,7 +23,7 @@
     	</div>
 
     	<div class="container" style="background-color:#f1f1f1">
-      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Supprimer</button>
+      		<button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Supprimer</button>
       		<span class="psw">Vous avez oublié votre <a href="#">mot de passe?</a></span>
     	</div>
     </form>

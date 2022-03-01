@@ -2,12 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="title.css">
 		<title>webcourses</title>
 	</head>
-
 	<body>
-		<h1><u><i><b>Le site des courses pour amateurs et professionnels</b></i></u></h1>
+		<h1 id="title"><u><i><b>Le site des courses pour amateurs et professionnels</b></i></u></h1>
 		
 		<!-- appel pour entête du site -->
 		<?php echo include("entete.php"); ?>
@@ -33,7 +32,7 @@
 			joindre par email à evenementiel_sio@sitewebdescourses.fr
 			</p>
 		</div>
-		<!-- pied de page du site -->
+		<!-- pied de page du site (footer)-->
 		<?php echo include("pied_de_page.php"); ?>
 	</body>
 </html>
