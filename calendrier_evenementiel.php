@@ -57,9 +57,37 @@
 		<option>3</option>
 	</select>
 	<br/>
-
+	<label for="maillot">Taille du maillot: </label>
+	<select id="maillot" name="maillot">
+		<option>XS</option>
+		<option>S</option>
+		<option>M</option>
+		<option>L</option>
+		<option>XL</option>
+		<option>2XL</option>
+		<option>3XL</option>
+	</select>
+	<br />
+	<label for="temps">Temps annoncé pour votre course: </label>
+	<select id="temps" name="temps">
+		<option>20 minutes</option>
+		<option>30 minutes</option>
+		<option>40 minutes</option>
+		<option>50 minutes</option>
+		<option>1 heure</option>
+		<option>1 heure 15 minutes</option>
+		<option>1 heure 30 minutes</option>
+		<option>1 heure 45 minutes</option>
+		<option>2 heures</option>
+	</select>
+	<br />
+	<p><u>Présence du certificat médical:</u></p>
+	<input type="radio" name="certificat" value="oui" id="oui" checkek="checkek"/>
+	<label for="oui">Oui</label>
+	<input type="radio" name="certificat" value="non" id="non" checkek="checkek"/>
+	<label for="non">Non</label>
+	<br />
 	<h2><b><u>Notre calendrier événementiel</u></b></h2>
-	<a href="index.php">Cliquez içi pour revenir à la page d'acceuil</a>
 	<table>
 		<tr>
 			<th>Date</th>
@@ -97,6 +125,8 @@
 			<td></td>
 		</tr>
 	</table>
+	<br />
+	<button><a href="inscription.php">S'inscrire</a></button>
 	<!-- pied de page du site (footer)-->
 	<?php echo include("pied_de_page.php"); ?>
 </body>
