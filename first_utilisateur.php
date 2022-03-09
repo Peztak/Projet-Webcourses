@@ -2,7 +2,7 @@
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content">
+  <form class="modal-content animate">
     <div class="container">
       <h1>Créer un compte utilisateur</h1>
       <p>Entrez les informations correspondantes afin de créer votre compte.</p>
