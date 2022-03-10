@@ -19,7 +19,7 @@
 	<p>Vous n'avez pas de compte? <a href="first_connexion.php">créer un compte!</a></p>
 
 	<!-- appel des coockies-->
-	<?php echo include("coockie.php"); ?>
+	<?php echo include("cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
 	<?php echo include("pied_de_page.php"); ?>

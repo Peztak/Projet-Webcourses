@@ -41,6 +41,8 @@
 			<li>Un moyen de paiement (le montant de votre inscription sera à régler sur place le jour de l'épreuve</li>
 		</ul>
 	</p>
+	<!-- appel des coockies-->
+    <?php echo include("cookie.php"); ?>
 
 <script type="text/javascript" src="cookie.js"></script>
 </body>

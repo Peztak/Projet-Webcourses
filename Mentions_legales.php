@@ -14,7 +14,7 @@
     <p>RGPD</p>
 
     <!-- appel des coockies-->
-    <?php echo include("coockie.php"); ?>
+    <?php echo include("cookie.php"); ?>
 
     <!-- pied de page du site (footer)-->
     <?php echo include("pied_de_page.php"); ?>

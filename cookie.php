@@ -1,6 +1,6 @@
 <div class="cookiescontainer">
 	<p>
-		We use cookies in this website to give you the best experience on our site. To find out more, read our <a href="confidential.html">Confidentiality Policy</a>
+		We use cookies in this website to give you the best experience on our site. To find out more, read our <a href="Politique.php">Confidentiality Policy</a>
 		<button class="cookiesbtnrefuse">I Refuse</button>
 		<button class="cookiesbtnaccept">I Accept</button>
 		<button class="cookiesbtnperso"><a href="#box">Personalize</a></button>
