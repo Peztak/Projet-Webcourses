@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="title.css">
+		<link rel="stylesheet" type="text/css" href="cookie.css">
 		<title>webcourses</title>
 	</head>
 	<body>
@@ -32,7 +33,13 @@
 			joindre par email à evenementiel_sio@sitewebdescourses.fr
 			</p>
 		</div>
+
+		<!-- appel des cookies-->
+		<?php echo include("cookie.php"); ?>
+
 		<!-- pied de page du site (footer)-->
 		<?php echo include("pied_de_page.php"); ?>
+		
+		<script type="text/javascript" src="cookie.js"></script>
 	</body>
 </html>

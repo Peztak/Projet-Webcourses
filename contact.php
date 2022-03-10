@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="title.css">
 	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="cookie.css">
 	<title>webcourses</title>
 </head>
 <body>
@@ -36,7 +37,13 @@
 
       <a href="index.php">Cliquez içi pour revenir à la page d'acceuil</a>
 	</div>
+
+	<!-- appel des coockies-->
+	<?php echo include("coockie.php"); ?>
+
 	<!-- pied de page du site (footer)-->
 	<?php echo include("pied_de_page.php"); ?>
+
+<script type="text/javascript" src="cookie.js"></script>
 </body>
 </html>

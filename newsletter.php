@@ -1,7 +1,7 @@
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Abonnez-vous à la Newsletter</button>
+<button onclick="document.getElementById('news').style.display='block'" style="width:auto;">Abonnez-vous à la Newsletter</button>
 
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+<div id="news" class="modal">
+  <span onclick="document.getElementById('news').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate">
     <div class="container">
       <h1>S'abonner à la Newsletter Webcourses</h1>
@@ -18,7 +18,7 @@
       </label>
 
       <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+        <button type="button" onclick="document.getElementById('news').style.display='none'" class="cancelbtn">Annuler</button>
         <button type="submit" class="signupbtn">S'abonner</button>
       </div>
     </div>

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="inscription.css">
+	<link rel="stylesheet" type="text/css" href="cookie.css">
 	<title>webcourses</title>
 </head>
 <body>
@@ -40,5 +41,7 @@
 			<li>Un moyen de paiement (le montant de votre inscription sera à régler sur place le jour de l'épreuve</li>
 		</ul>
 	</p>
+
+<script type="text/javascript" src="cookie.js"></script>
 </body>
 </html>
