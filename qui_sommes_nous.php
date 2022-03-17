@@ -13,17 +13,17 @@
 	<h2><b><u>Concernant Webcourses</u></b></h2>
 
 	<!-- appel pour le menu du site -->
-	<?php echo include("menu.php"); ?>
+	<?php include("menu.php"); ?>
 
 	<p>L'association Webcourses a pour mission de fournir des espaces et des services aux différentes associations sportives régionales et à d'autres structures hébergées</p>
 	<!-- appel du bouton pour la newsletter -->
-	<?php echo include("newsletter.php"); ?>
+	<?php include("newsletter.php"); ?>
 
 	<!-- appel des coockies-->
-	<?php echo include("cookie.php"); ?>
+	<?php include("cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php echo include("pied_de_page.php"); ?>
+	<?php include("pied_de_page.php"); ?>
 
 <script type="text/javascript" src="cookie.js"></script>
 <script type="text/javascript" src="newsletter.js"></script>

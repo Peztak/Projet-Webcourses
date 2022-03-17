@@ -11,7 +11,7 @@
 	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
 
 	<!-- appel pour le menu du site -->
-	<?php echo include("menu.php"); ?>
+	<?php include("menu.php"); ?>
 
 	<div class="container">
 
@@ -39,10 +39,10 @@
 	</div>
 
 	<!-- appel des coockies-->
-	<?php echo include("cookie.php"); ?>
+	<?php include("cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php echo include("pied_de_page.php"); ?>
+	<?php include("pied_de_page.php"); ?>
 
 <script type="text/javascript" src="cookie.js"></script>
 </body>

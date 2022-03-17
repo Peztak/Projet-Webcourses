@@ -8,15 +8,12 @@
 	</head>
 	<body>
 		<h1 id="title"><u><i><b>Le site des courses pour amateurs et professionnels</b></i></u></h1>
-		
-		<!-- appel pour entête du site -->
-		<?php echo include("entete.php"); ?>
 
 		<!-- appel pour le menu du site -->
-		<?php echo include("menu.php"); ?>
-
+		<?php include("menu.php"); ?>
+		<br />
 		<!-- appel pour le menu du site -->
-		<?php echo include("slider.php"); ?>
+		<?php include("slider.php"); ?>
 
 		<div id="corps">
 			<p>Ce site est dédié aux coureurs amateurs et professionnels
@@ -35,10 +32,10 @@
 		</div>
 
 		<!-- appel des cookies-->
-		<?php echo include("cookie.php"); ?>
+		<?php include("cookie.php"); ?>
 
 		<!-- pied de page du site (footer)-->
-		<?php echo include("pied_de_page.php"); ?>
+		<?php include("pied_de_page.php"); ?>
 		
 		<script type="text/javascript" src="cookie.js"></script>
 	</body>

@@ -12,7 +12,7 @@ input[type=text]:focus, input[type=mail]:focus {
   outline: none;
 }
 
-button {
+.newsletter{
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;

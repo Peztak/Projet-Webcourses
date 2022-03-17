@@ -11,17 +11,42 @@
 	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
 	
 	<!-- appel pour le menu du site -->
-	<?php echo include("menu.php"); ?>
+	<?php include("menu.php"); ?>
 
-	<h2><b><u>Partie Sélection</u></b></h2>
+	<?php
+
+	try
+	{
+		//connexion à la base de données
+		$bdd = new pdo('mysql:host=localhost;dbname=webcourses;charset=utf8', 'root', 'root');
+		array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+		echo 'connexion réussie';
+	}
+	catch (Exception $e)
+	{
+		echo 'erreur';
+		die('Erreur de connexion : ' . $e->getMessage());
+	}
+	echo '<h2><b><u>Partie Sélection</u></b></h2>
 	<p>Içi vous pouvez sélectionner les informations présente dans chaque liste<br/>
-		afin de vous aider à chercher l'événement que vous souhaitez.<p>
-	<label for="championnat">Championnat: </label>
-	<select id="championnat" name="championnat">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
+		afin de vous aider à chercher l\'événement que vous souhaitez.<p> ';
+
+	echo '<label for="championnat">Championnat: </label>
+	<select id="championnat" name="championnat">';
+
+	//lecture de toutes les données de la table
+	$reponse = $bdd->query("select * from championnat");
+
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['ch_nom'].'</option>';
+	}
+	echo '</select>';
+
+	$reponse->closeCursor();
+?>
+	
+	
 	<br/>
 	<label for="manifestation">Manifestation: </label>
 	<select id="manifestation" name="manifestation">
@@ -127,13 +152,13 @@
 		</tr>
 	</table>
 	<br />
-	<button><a href="inscription.php">S'inscrire</a></button>
+	<button class="inscrire"><a href="inscription.php">S'inscrire</a></button>
 
 	<!-- appel des coockies-->
-	<?php echo include("cookie.php"); ?>
+	<?php include("cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php echo include("pied_de_page.php"); ?>
+	<?php include("pied_de_page.php"); ?>
 
 	<script type="text/javascript" src="cookie.js"></script>
 </body>

@@ -1,4 +1,4 @@
-<button onclick="document.getElementById('news').style.display='block'" style="width:auto;">Abonnez-vous à la Newsletter</button>
+<button class="newsletter"onclick="document.getElementById('news').style.display='block'" style="width:auto;">Abonnez-vous à la Newsletter</button>
 
 <div id="news" class="modal">
   <span onclick="document.getElementById('news').style.display='none'" class="close" title="Close Modal">&times;</span>

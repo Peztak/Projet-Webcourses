@@ -10,7 +10,7 @@
 	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
 	
 	<!-- appel pour le menu du site -->
-	<?php echo include("menu.php"); ?>
+	<?php include("menu.php"); ?>
 
 	<h2><b><u>Nos clubs partenaires:</u></b></h2>
 	<a href="index.php">Cliquez içi pour revenir à la page d'acceuil</a>
@@ -26,10 +26,10 @@
 	</ul>
 
 	<!-- appel des coockies-->
-	<?php echo include("cookie.php"); ?>
+	<?php include("cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php echo include("pied_de_page.php"); ?>
+	<?php include("pied_de_page.php"); ?>
 
 <script type="text/javascript" src="cookie.js"></script>
 </body>

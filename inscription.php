@@ -10,7 +10,7 @@
 	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
 
 	<!-- appel pour le menu du site -->
-	<?php echo include("menu.php"); ?>
+	<?php include("menu.php"); ?>
 
 	<br />
 	<h2><b><u>CONFIRMATION DE VOTRE INSCRIPTION</u></b></h2>
@@ -42,7 +42,7 @@
 		</ul>
 	</p>
 	<!-- appel des coockies-->
-    <?php echo include("cookie.php"); ?>
+    <?php include("cookie.php"); ?>
 
 <script type="text/javascript" src="cookie.js"></script>
 </body>

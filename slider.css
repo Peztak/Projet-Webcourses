@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1200px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
   border: 3px solid black;
@@ -43,8 +43,9 @@
 
 /* Caption text */
 .text {
-  color: rgb(0, 0, 0);
-  font-size: 30px;
+  font-family: Arial, sans-serif;
+  color: lightblue;
+  font-size: 34px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
