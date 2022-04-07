@@ -1,20 +1,21 @@
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Conteneur de diaporama */
 .slideshow-container {
-  max-width: 1000px;
+  max-height: 50%;
+  max-width: 50%;
   position: relative;
   margin: auto;
   border: 3px solid black;
   border-radius: 5px;
 }
 
-/* Hide the images by default */
+/* Masquer les images par défaut */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
+/* Bouttons précédents et suivants */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -30,21 +31,21 @@
   user-select: none;
 }
 
-/* Position the "next button" to the right */
+/* Positionnez le bouton "suivant" à droite */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* En survolant, ajoutez une couleur de fond noire avec un peu de transparence */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Texte de la légende */
 .text {
   font-family: Arial, sans-serif;
-  color: lightblue;
+  color: black;
   font-size: 34px;
   padding: 8px 12px;
   position: absolute;
@@ -53,7 +54,7 @@
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
+/* Texte numérique (1/3, etc.) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -62,7 +63,7 @@
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* Les points/puces/indicateurs */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -78,7 +79,7 @@
   background-color: #717171;
 }
 
-/* Fading animation */
+/* Animation de fondu */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;

@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="compte.css">
+	<link rel="stylesheet" type="text/css" href="title.css">
+	<link rel="stylesheet" type="text/css" href="table.css">
 	<link rel="stylesheet" type="text/css" href="cookie.css">
 	<title>webcourses</title>
 </head>

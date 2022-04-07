@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>webcourses</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="title.css">
     <link rel="stylesheet" type="text/css" href="cookie.css">
 </head>
@@ -10,8 +11,8 @@
 
     <!-- appel pour le menu du site -->
     <?php include("menu.php"); ?>
-
-    <h2><b><u>Politique de Confidentialité</u></b></h2>
+<div id='corps'>
+<h2><b><u>Politique de Confidentialité</u></b></h2>
 <h3><b><u>1. BUTS ET OBJECTIFS</u></b></h3>
 <p><br>Les employés et personnel de Webcourses et de ses
 sociétés associées ont le devoir de maintenir la
@@ -102,6 +103,7 @@ en la possession ou le contrôle de l’employé ou du personnel de Webcourses.
 L’obligation de préserver la confidentialité et la non-divulgation se poursuivra.
 même après la fin de la période d’emploi ou d’engagement à l’égard de
 toutes les informations confidentielles.</li>
+</ol>
 <br>Tout employé qui contrevient à l’obligation de confidentialité et à la non-divulgation, 
 tout en étant employé par Webcourses sera sanctionné, et dans des
 cas graves, congédié. Tout ex-employé jugé en violation de cette
@@ -147,7 +149,7 @@ but.</br>
 <p><br>Tous les supports contenant des informations confidentielles doivent être éliminés
 de manière à ce que les renseignements ne soient pas divulgués à une
 personne non autorisée.</br></p>
-
+</div>
     <!-- appel des coockies-->
     <?php include("cookie.php"); ?>
 

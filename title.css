@@ -2,11 +2,11 @@
     text-align: center;
     height: all;
 	width: all;
-	color: white;
+	color: black;
 	font-size: 60px;
-    background-color: blue;
     top: 0;
     margin: 0;
+    z-index: 2;
 }
 h2 {
     text-align: center;
@@ -16,7 +16,4 @@ h3 {
     text-align: center;
     color: red;
     height: 18px;
-}
-p {
-    text-align: center;
 }

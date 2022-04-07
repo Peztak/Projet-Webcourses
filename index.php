@@ -2,12 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="title.css">
+		<link rel="stylesheet" type="text/css" href="header.css">
 		<link rel="stylesheet" type="text/css" href="cookie.css">
 		<title>webcourses</title>
 	</head>
-	<body>
+	<body><header>
 		<h1 id="title"><u><i><b>Le site des courses pour amateurs et professionnels</b></i></u></h1>
+		<img src="bannière.jpg">
+	</header>
 
 		<!-- appel pour le menu du site -->
 		<?php include("menu.php"); ?>
@@ -33,10 +37,10 @@
 
 		<!-- appel des cookies-->
 		<?php include("cookie.php"); ?>
-
+		<br/>
+		<br/>
 		<!-- pied de page du site (footer)-->
 		<?php include("pied_de_page.php"); ?>
-		
 		<script type="text/javascript" src="cookie.js"></script>
 	</body>
 </html>

@@ -34,78 +34,109 @@
 	echo '<label for="championnat">Championnat: </label>
 	<select id="championnat" name="championnat">';
 
-	//lecture de toutes les données de la table
+	//lecture de toutes les données de la table championnat
 	$reponse = $bdd->query("select * from championnat");
 
+	//boucle while afin de lire toutes les données de la colonne ch_nom présentes dans la table championnat
 	while($donnees = $reponse->fetch())
 	{
 		echo '<option>'.$donnees['ch_nom'].'</option>';
 	}
 	echo '</select>';
 
+	echo '<br /><label for="manifestation">Manifestation: </label>
+	<select id="manifestation" name="manifestation">';
+
+	//lecture de toutes les données de la table manifestation
+	$reponse = $bdd->query("select * from manifestation");
+
+	//boucle while afin de lire toutes les données de la colonne ma_nom présentes dans la table manifestation
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['ma_nom'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="cat_epreuve">Catégorie d\'épreuve: </label>
+	<select id="cat_epreuve" name="cat_epreuve">';
+
+	//lecture de toutes les données de la table type_epreuve
+	$reponse = $bdd->query("select * from type_epreuve");
+
+	//boucle while afin de lire toutes les données de la colonne typep_nom présentes dans la table type_epreuve
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['typep_nom'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="epreuve">épreuve: </label>
+	<select id="epreuve" name="epreuve">';
+
+	//lecture de toutes les données de la table epreuve
+	$reponse = $bdd->query("select * from epreuve");
+
+	//boucle while afin de lire toutes les données de la colonne ep_nom présentes dans la table epreuve
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['ep_nom'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="parcours">Parcours : </label>
+	<select id="parcours" name="parcours">';
+
+	//lecture de toutes les données de la table parcours
+	$reponse = $bdd->query("select * from parcours");
+
+	//boucle while afin de lire toutes les données de la colonne pa_nom_parcours présentes dans la table parcours
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['pa_nom_parcours'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="cat_age">Catégorie d\'âge: </label>
+	<select id="cat_age" name="cat_age">';
+
+	//lecture de toutes les données de la table categorie
+	$reponse = $bdd->query("select * from categorie");
+
+	//boucle while afin de lire toutes les données de la colonne cat_nom_parcours présentes dans la table categorie
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['cat_nom'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="maillot">Taille du maillot: </label>
+	<select id="maillot" name="maillot">';
+
+	//lecture de toutes les données de la table maillot
+	$reponse = $bdd->query("select * from maillot");
+
+	//boucle while afin de lire toutes les données de la colonne taille_maillot présentes dans la table maillot
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['taille_maillot'].'</option>';
+	}
+	echo '</select>';
+
+	echo '<br /><label for="temps">Temps annoncé pour votre course: </label>
+	<select id="temps" name="temps">';
+
+	//lecture de toutes les données de la table temps
+	$reponse = $bdd->query("select * from temps");
+
+	//boucle while afin de lire toutes les données de la colonne t_annonce présentes dans la table temps
+	while($donnees = $reponse->fetch())
+	{
+		echo '<option>'.$donnees['t_annonce'].'</option>';
+	}
+	echo '</select>';
+
 	$reponse->closeCursor();
 ?>
-	
-	
-	<br/>
-	<label for="manifestation">Manifestation: </label>
-	<select id="manifestation" name="manifestation">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
-	<br/>
-	<label for="cat_epreuve">Catégorie d'épreuve: </label>
-	<select id="cat_epreuve" name="cat_epreuve">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
-	<br/>
-	<label for="epreuve">épreuve: </label>
-	<select id="epreuve" name="epreuve">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
-	<br/>
-	<label for="parcours">Parcours : </label>
-	<select id="parcours" name="parcours">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
-	<br/>
-	<label for="cat_age">Catégorie d'âge: </label>
-	<select id="cat_age" name="cat_age">
-		<option>1</option>
-		<option>2</option>
-		<option>3</option>
-	</select>
-	<br/>
-	<label for="maillot">Taille du maillot: </label>
-	<select id="maillot" name="maillot">
-		<option>XS</option>
-		<option>S</option>
-		<option>M</option>
-		<option>L</option>
-		<option>XL</option>
-		<option>2XL</option>
-		<option>3XL</option>
-	</select>
-	<br />
-	<label for="temps">Temps annoncé pour votre course: </label>
-	<select id="temps" name="temps">
-		<option>20 minutes</option>
-		<option>30 minutes</option>
-		<option>40 minutes</option>
-		<option>50 minutes</option>
-		<option>1 heure</option>
-		<option>1 heure 15 minutes</option>
-		<option>1 heure 30 minutes</option>
-		<option>1 heure 45 minutes</option>
-		<option>2 heures</option>
-	</select>
 	<br />
 	<p><u>Présence du certificat médical:</u></p>
 	<input type="radio" name="certificat" value="oui" id="oui" checkek="checkek"/>
@@ -152,7 +183,7 @@
 		</tr>
 	</table>
 	<br />
-	<button class="inscrire"><a href="inscription.php">S'inscrire</a></button>
+	<button><a href="inscription.php">S'inscrire</a></button>
 
 	<!-- appel des coockies-->
 	<?php include("cookie.php"); ?>

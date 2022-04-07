@@ -12,31 +12,31 @@
   	<!-- Full-width images with number and caption text -->
   	<div class="mySlides fade">
     	<div class="numbertext">1 / 5</div>
-    	<img src="coureur.jpg" style="width:100%">
+    	<img src="coureur.jpg" style="height: 100%; width: 100%">
     	<div class="text">Profitez des plaisirs du sport seul...</div>
   	</div>
 
   	<div class="mySlides fade">
     	<div class="numbertext">2 / 5</div>
-    	<img src="coureur2.jpg" style="width:100%">
+    	<img src="coureur2.jpg" style="height: 100%; width: 100%">
     	<div class="text">Ou à plusieurs...</div>
   	</div>
 
   	<div class="mySlides fade">
     	<div class="numbertext">3 / 5</div>
-    	<img src="canoe.jpg" style="width:100%">
+    	<img src="https://i0.wp.com/expenature.fr/wp-content/uploads/2020/07/2020-07-08-Calanques-Canoe-kayak-Cassis-Marseille-Ciotat-36-1.jpg?ssl=1" style="height: 100%; width: 100%">
     	<div class="text">Sur l'eau...</div>
   	</div>
 
   	<div class="mySlides fade">
     	<div class="numbertext">4 / 5</div>
-    	<img src="velo.jpg" style="width:100%">
+    	<img src="velo.jpg" style="height: 100%; width: 100%">
     	<div class="text">Ou à vélo...</div>
   	</div>
 
   	<div class="mySlides fade">
     	<div class="numbertext">5 / 5</div>
-    	<img src="groupe.jpg" style="width:100%">
+    	<img src="groupe.jpg" style="height: 100%; width: 100%">
     	<div class="text">La bonne humeur sera au rendez-vous avec nous!</div>
   	</div>
   	<!-- Next and previous buttons -->

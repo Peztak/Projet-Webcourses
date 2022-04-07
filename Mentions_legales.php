@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>webcourses</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="title.css">
     <link rel="stylesheet" type="text/css" href="cookie.css">
 </head>
@@ -10,7 +11,7 @@
 
     <!-- appel pour le menu du site -->
     <?php include("menu.php"); ?>
-
+<div id='corps'>
     <h1><b><u>RGPD</u></b></h1>
         <h1><b><u>Chapitre 1: dispositions générales</u></b></h1>
         <p><b><u>Art. 1</u></b></p> 
@@ -149,7 +150,7 @@ b-au suivi du comportement de ces personnes, dans la mesure où il s'agit d'un c
 <p><b><u>Art. 10</u></b></p>
 <h2><b><u>Traitement des données à caractère personnel relatives aux condamnations pénales et aux infractions</u></b></h2>
 <p><br>Le traitement des données à caractère personnel relatives aux condamnations pénales et aux infractions ou aux mesures de sûreté connexes fondé sur l’article 6, paragraphe 1, ne peut être effectué que sous le contrôle de l’autorité publique, ou si le traitement est autorisé par le droit de l’Union ou par le droit d’un État membre qui prévoit des garanties appropriées pour les droits et libertés des personnes concernées. Tout registre complet des condamnations pénales ne peut être tenu que sous le contrôle de l’autorité publique.
-<br><p>
+<br></p>
 <p><b><u>Art. 11</u></b></p>
 <h2><b><u>Traitement ne nécessitant pas l'identification</u></b></h2>
 <p><br>1-Si les finalités pour lesquelles des données à caractère personnel sont traitées n'imposent pas ou n'imposent plus au responsable du traitement d'identifier une personne concernée, celui-ci n'est pas tenu de conserver, d'obtenir ou de traiter des informations supplémentaires pour identifier la personne concernée à la seule fin de respecter le présent règlement.
@@ -527,7 +528,7 @@ d-démontré, à la satisfaction de l'autorité de contrôle compétente, que se
 5-Une certification en vertu du présent article est délivrée par les organismes de certification visés à l'article 43 ou par l'autorité de contrôle compétente sur la base des critères approuvés par cette autorité de contrôle compétente en application de l'article 58, paragraphe 3, ou par le comité en application de l'article 63. Lorsque les critères sont approuvés par le comité, cela peut donner lieu à une certification commune, le label européen de protection des données.
 6-Le responsable du traitement ou le sous-traitant qui soumet son traitement au mécanisme de certification fournit à l'organisme de certification visé à l'article 43 ou, le cas échéant, à l'autorité de contrôle compétente toutes les informations ainsi que l'accès à ses activités de traitement, qui sont nécessaires pour mener la procédure de certification.
 7-La certification est délivrée à un responsable du traitement ou à un sous-traitant pour une durée maximale de trois ans et peut être renouvelée dans les mêmes conditions tant que les critères applicables continuent d’être respectés. La certification est retirée, s’il y a lieu, par les organismes de certification visés à l’article 43 ou par l’autorité de contrôle compétente lorsque les critères applicables à la certification ne sont pas ou plus respectés.
-8-Le comité consigne dans un registre tous les mécanismes de certification et les labels ou les marques en matière de protection des données et les met à la disposition du public par tout moyen approprié.<p>
+8-Le comité consigne dans un registre tous les mécanismes de certification et les labels ou les marques en matière de protection des données et les met à la disposition du public par tout moyen approprié.</p>
 <p><b><u>Art. 43</u></b></p>
 <h2><b><u>Organismes de certification</u></b></h2>
 <p>1-Sans préjudice des missions et des pouvoirs de l'autorité de contrôle compétente au titre des articles 57 et 58, les organismes de certification disposant d'un niveau d'expertise approprié en matière de protection des données délivrent et renouvellent les certifications, après en avoir informé l'autorité de contrôle pour qu'elle puisse exercer au besoin les pouvoirs qui lui sont dévolus en vertu de l'article 58, paragraphe 2, point h). Les États membres veillent à ce que ces organismes de certification soient agréés par une des entités suivantes ou les deux:
@@ -545,7 +546,7 @@ e-démontré, à la satisfaction de l'autorité de contrôle compétente, que le
 6-Les exigences visées au paragraphe 3 du présent article et les critères visés à l’article 42, paragraphe 5, sont publiés par les autorités de contrôle sous une forme aisément accessible. Les autorités de contrôle transmettent aussi ces exigences et ces critères au comité. Le comité consigne dans un registre tous les mécanismes de certification et les labels en matière de protection des données et les met à la disposition du public par tout moyen approprié.
 7-Sans préjudice du chapitre VIII, l'autorité de contrôle compétente ou l'organisme national d'accréditation révoque l'agrément d'un organisme de certification en application du paragraphe 1 du présent article si les conditions d'agrément ne sont pas ou ne sont plus réunies ou si les mesures prises par l'organisme de certification constituent une violation du présent règlement.
 8-La Commission est habilitée à adopter des actes délégués en conformité avec l'article 92, aux fins de préciser les exigences à prendre en considération en ce qui concerne les mécanismes de certification en matière de protection des données visés à l'article 42, paragraphe 1.
-9-La Commission peut adopter des actes d'exécution visant à fixer des normes techniques pour les mécanismes de certification, les labels et les marques en matière de protection des données, ainsi que les mécanismes aux fins de la promotion et de la reconnaissance de ces mécanismes de certification, labels et marques. Ces actes d'exécution sont adoptés en conformité avec la procédure d'examen visée à l'article 93, paragraphe 2.<p>
+9-La Commission peut adopter des actes d'exécution visant à fixer des normes techniques pour les mécanismes de certification, les labels et les marques en matière de protection des données, ainsi que les mécanismes aux fins de la promotion et de la reconnaissance de ces mécanismes de certification, labels et marques. Ces actes d'exécution sont adoptés en conformité avec la procédure d'examen visée à l'article 93, paragraphe 2.</p>
 <h1><b><u>Chapitre 5: transferts de données à caractère personnel vers un pays tiers ou à des organisations internationales</u></b></h1>
 <p><b><u>Art. 44</u></b></p>
 <h2><b><u>Principe général applicable aux transferts</u></b></h2>
@@ -1047,8 +1048,8 @@ b-chapitre VII sur la coopération et la cohérence.<br>
 <h2><b><u>Entrée en vigueur et application</u></b></h2>
 <br><p>1-Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l'Union européenne.<br>
 2-Il est applicable à partir du 25 mai 2018.<br>
-3-Le présent règlement est obligatoire dans tous ses éléments et directement applicable dans tout État membre.</p>
-
+3-Le présent règlement est obligatoire dans tous ses éléments et directement applicable dans tout État membre.</p></p">
+</div>
     <!-- appel des coockies-->
     <?php include("cookie.php"); ?>
 
