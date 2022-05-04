@@ -108,3 +108,98 @@ display: block;
   text-align: center;
   background-color: #c0c0c0;
 }
+
+/*Information relative aux boutons "En savoir plus" présent dans la fenêtre de gestion des cookies*/
+.btnPopup{
+    margin-left: 5px;
+    background-color: rgb(55, 141, 216);
+    padding: 1em 2em;
+    font-size:14pt
+}
+.btnPopup2{
+    margin-left: 5px;
+    background-color: rgb(55, 141, 216);
+    padding: 1em 2em;
+    font-size:14pt
+}
+.btnPopup3{
+    margin-left: 5px;
+    background-color: rgb(55, 141, 216);
+    padding: 1em 2em;
+    font-size:14pt
+}
+.btnPopup:hover{
+    background-color: rgb(4, 20, 248);
+}
+.btnPopup2:hover{
+    background-color: rgb(4, 20, 248);
+}
+.btnPopup3:hover{
+    background-color: rgb(4, 20, 248);
+}
+.overlay {
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+.overlay2 {
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+.overlay3 {
+    z-index: 2;
+    position: fixed;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+.popup{
+    margin: 20% auto;
+    width : 70%;
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.popup2{
+    margin: 20% auto;
+    width : 70%;
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.popup3{
+    margin: 20% auto;
+    width : 70%;
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+    box-shadow: 15px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.btnClose {
+    float: right;
+    cursor: pointer;
+}
+.btnClose2 {
+    float: right;
+    cursor: pointer;
+}
+.btnClose3 {
+    float: right;
+    cursor: pointer;
+}

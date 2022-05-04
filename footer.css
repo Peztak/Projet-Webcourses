@@ -1,7 +1,7 @@
 #pied_de_page {
     text-align: center;
     font-weight: bold;
-    background-color: blue;
+    background-color: rgb(55, 141, 216);
     justify-content: center;
     width: 100%;
     position: fixed;
@@ -11,11 +11,11 @@
     bottom: 0;
 }
 a {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a.Legal {
     margin: 5px;
 }
 a.Legal:hover {
-    color: black;
+    color: white;
 }
