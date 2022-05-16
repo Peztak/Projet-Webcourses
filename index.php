@@ -30,9 +30,7 @@
 			Dans votre espace personnel, vous trouverez le bulletin d’inscription pour la 
 			participation à un évènement, vos statistiques de courses, vos classements.
 			<br />
-			Pour nous contacter, vous pouvez utiliser l’onglet contact ou bien nous 
-			joindre par email à evenementiel_sio@sitewebdescourses.fr
-			</p>
+			Pour nous contacter, vous pouvez utiliser l’onglet contact.</p>
 		</div>
 
 		<!-- appel des cookies-->
