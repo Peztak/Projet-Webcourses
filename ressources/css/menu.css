@@ -1,0 +1,33 @@
+/* Ajouter une couleur de fond à la navigation du haut */
+.topnav {
+  background-color: rgb(55, 141, 216);
+  overflow: hidden;
+  box-shadow: 0 3px 16px rgb(47, 54, 64);
+}
+
+/* Style des liens à l’intérieur de la barre de navigation */
+.topnav a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.8s;
+}
+/* Style du lien de connexion à l’intérieur de la barre de navigation */
+.topnav a.Login {
+  float: right;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.8s;
+}
+
+/* Change la couleur des liens sur le curseur */
+.topnav a:hover {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+}

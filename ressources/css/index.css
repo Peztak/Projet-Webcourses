@@ -1,0 +1,17 @@
+#title {
+    text-align: center;
+    height: all;
+	width: all;
+	color: white;
+	font-size: 60px;
+    background-color: blue;
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#corps {
+    text-align: center;
+}

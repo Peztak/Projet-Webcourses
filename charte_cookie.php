@@ -2,14 +2,20 @@
 <html>
 <head>
     <title>Charte des cookies</title>
-    <link rel="stylesheet" type="text/css" href="title.css">
-    <link rel="stylesheet" type="text/css" href="cookie.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
 <body>
-    <h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
-
+<header>
+    <div class="contenant">
+        <img src="./ressources/images/bannière.jpg">
+        <div class="texte"><u><b><i>Charte des Cookies</i></b></u></div>
+    </div>
+</header>
     <!-- appel pour le menu du site -->
-    <?php include("menu.php"); ?>
+    <?php include("./ressources/menu.php"); ?>
 
     <div id='corps'>
     <h2><b><u>Charte des Cookies</u></b></h2>
@@ -110,16 +116,17 @@ Vous pouvez à tout moment autoriser,interdire oulimiter en :<br/>
     <li>Opera™: <a href="https://help.opera.com/en/latest/web-preferences/#cookies">En savoir plus</a></li>
 </ul><br/>
 Pour en savoir plus sur les cookies, nous vous invitons à consulter Le site de la Commission Nationale de l'Informatique et des Libertés: <a href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser</a><br/>
-
+<br/>
+<br/>
 </p></div>
 
     <!-- appel des coockies-->
-    <?php include("cookie.php"); ?>
+    <?php include("./ressources/cookie.php"); ?>
 
     <!-- pied de page du site (footer)-->
-    <?php include("pied_de_page.php"); ?>
+    <?php include("./ressources/pied_de_page.php"); ?>
 
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>
 

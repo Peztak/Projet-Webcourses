@@ -1,17 +1,24 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="title.css">
-	<link rel="stylesheet" type="text/css" href="table.css">
-	<link rel="stylesheet" type="text/css" href="cookie.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/table.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 	<title>webcourses</title>
 </head>
 <body>
-	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
+<header>
+	<div class="contenant">
+		<img src="./ressources/images/bannière.jpg">
+		<div class="texte"><u><b><i>Votre Compte</i></b></u></div>
+	</div>
+</header>
 
 	<!-- appel pour le menu du site -->
-	<?php include("menu.php"); ?>
+	<?php include("./ressources/menu.php"); ?>
 
 	<br />
 	<h2><u><b>Visuel de votre compte.</b></u></h2>
@@ -61,11 +68,11 @@
 	</table>
 	
 	<!-- appel des coockies-->
-	<?php include("cookie.php"); ?>
+	<?php include("./ressources/cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php include("pied_de_page.php"); ?>
+	<?php include("./ressources/pied_de_page.php"); ?>
 
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

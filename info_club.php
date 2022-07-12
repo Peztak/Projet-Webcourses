@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>webcourses</title>
-	<link rel="stylesheet" type="text/css" href="title.css">
-	<link rel="stylesheet" type="text/css" href="cookie.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
 <body>
-	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
+<header>
+	<div class="contenant">
+		<img src="./ressources/images/bannière.jpg">
+		<div class="texte"><u><b><i>Clubs partenaires</i></b></u></div>
+	</div>
+</header>
 	
 	<!-- appel pour le menu du site -->
-	<?php include("menu.php"); ?>
+	<?php include("./ressources/menu.php"); ?>
 
 	<h2><b><u>Nos clubs partenaires:</u></b></h2>
-	<a href="index.php">Cliquez içi pour revenir à la page d'acceuil</a>
 	<ul>
 		<li>La foulée bordelaise</li>
 		<li>UA du Médoc</li>
@@ -26,11 +32,11 @@
 	</ul>
 
 	<!-- appel des coockies-->
-	<?php include("cookie.php"); ?>
+	<?php include("./ressources/cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php include("pied_de_page.php"); ?>
+	<?php include("./ressources/pied_de_page.php"); ?>
 
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

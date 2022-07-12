@@ -2,15 +2,21 @@
 <html>
 <head>
     <title>webcourses</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="title.css">
-    <link rel="stylesheet" type="text/css" href="cookie.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
 <body>
-    <h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
+<header>
+    <div class="contenant">
+        <img src="./ressources/images/bannière.jpg">
+        <div class="texte"><u><b><i>Politique de Confidentialité</i></b></u></div>
+    </div>
+</header>
 
     <!-- appel pour le menu du site -->
-    <?php include("menu.php"); ?>
+    <?php include("./ressources/menu.php"); ?>
 <div id='corps'>
 <h2><b><u>Politique de Confidentialité</u></b></h2>
 <h3><b><u>1. BUTS ET OBJECTIFS</u></b></h3>
@@ -151,11 +157,11 @@ de manière à ce que les renseignements ne soient pas divulgués à une
 personne non autorisée.</br></p>
 </div>
     <!-- appel des coockies-->
-    <?php include("cookie.php"); ?>
+    <?php include("./ressources/cookie.php"); ?>
 
     <!-- pied de page du site (footer)-->
-    <?php include("pied_de_page.php"); ?>
+    <?php include("./ressources/pied_de_page.php"); ?>
 
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

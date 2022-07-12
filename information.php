@@ -1,16 +1,21 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="title.css">
-		<link rel="stylesheet" type="text/css" href="header.css">
-		<link rel="stylesheet" type="text/css" href="cookie.css">
+		<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+		<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+		<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+		<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 		<title>webcourses</title>
 </head>
 <body>
+<header>
+    <div class="contenant">
+        <img src="./ressources/images/bannière.jpg">
+        <div class="texte"><u><b><i>Informations utiles</i></b></u></div>
+    </div>
+</header>
     <!-- appel pour le menu du site -->
-	<?php include("menu.php"); ?>
+	<?php include("./ressources/menu.php"); ?>
     <br/>
     <h1 id="title"><u><i><b>Informations concernant l'association et son personnel</b></i></u></h1>
     <br/>
@@ -82,11 +87,11 @@
         <li>adresse mail: loyal.runninghightech@gmail.com</li>
     </ul>
     <!-- appel des cookies-->
-	<?php include("cookie.php"); ?>
+	<?php include("./ressources/cookie.php"); ?>
 	<br/>
 	<br/>
 	<!-- pied de page du site (footer)-->
-	<?php include("pied_de_page.php"); ?>
-	<script type="text/javascript" src="cookie.js"></script>
+	<?php include("./ressources/pied_de_page.php"); ?>
+	<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

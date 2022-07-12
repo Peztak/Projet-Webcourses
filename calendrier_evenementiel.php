@@ -1,17 +1,23 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="title.css">
-	<link rel="stylesheet" type="text/css" href="table.css">
-	<link rel="stylesheet" type="text/css" href="cookie.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/table.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 	<title>webcourses</title>
 </head>
 <body>
-	<h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
-	
+<header>
+	<div class="contenant">
+		<img src="./ressources/images/bannière.jpg">
+		<div class="texte"><u><b><i>Calendrier évènementiel</i></b></u></div>
+	</div>
+</header>
 	<!-- appel pour le menu du site -->
-	<?php include("menu.php"); ?>
+	<?php include("./ressources/menu.php"); ?>
 
 	<?php
 
@@ -29,7 +35,7 @@
 	}
 	echo '<h2><b><u>Partie Sélection</u></b></h2>
 	<p>Içi vous pouvez sélectionner les informations présente dans chaque liste<br/>
-		afin de vous aider à chercher l\'événement que vous souhaitez.<p> ';
+		afin de vous aider à chercher l\'événement que vous souhaitez.</p> ';
 
 	echo '<label for="championnat">Championnat: </label>
 	<select id="championnat" name="championnat">';
@@ -136,7 +142,7 @@
 	echo '</select>';
 
 	$reponse->closeCursor();
-?>
+	?>
 	<br />
 	<p><u>Présence du certificat médical:</u></p>
 	<input type="radio" name="certificat" value="oui" id="oui" checkek="checkek"/>
@@ -186,11 +192,11 @@
 	<button><a href="inscription.php">S'inscrire</a></button>
 
 	<!-- appel des coockies-->
-	<?php include("cookie.php"); ?>
+	<?php include("./ressources/cookie.php"); ?>
 
 	<!-- pied de page du site (footer)-->
-	<?php include("pied_de_page.php"); ?>
+	<?php include("./ressources/pied_de_page.php"); ?>
 
-	<script type="text/javascript" src="cookie.js"></script>
+	<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

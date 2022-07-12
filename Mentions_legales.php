@@ -2,15 +2,21 @@
 <html>
 <head>
     <title>webcourses</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="title.css">
-    <link rel="stylesheet" type="text/css" href="cookie.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+    <link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
 <body>
-    <h1 id="title"><u><i><b>Site Webcourses</b></i></u></h1>
+<header>
+    <div class="contenant">
+        <img src="./ressources/images/bannière.jpg">
+        <div class="texte"><u><b><i>Mentions Légales</i></b></u></div>
+    </div>
+</header>
 
     <!-- appel pour le menu du site -->
-    <?php include("menu.php"); ?>
+    <?php include("./ressources/menu.php"); ?>
 <div id='corps'>
     <h1><b><u>RGPD</u></b></h1>
         <h1><b><u>Chapitre 1: dispositions générales</u></b></h1>
@@ -1048,14 +1054,16 @@ b-chapitre VII sur la coopération et la cohérence.<br>
 <h2><b><u>Entrée en vigueur et application</u></b></h2>
 <br><p>1-Le présent règlement entre en vigueur le vingtième jour suivant celui de sa publication au Journal officiel de l'Union européenne.<br>
 2-Il est applicable à partir du 25 mai 2018.<br>
-3-Le présent règlement est obligatoire dans tous ses éléments et directement applicable dans tout État membre.</p></p">
+3-Le présent règlement est obligatoire dans tous ses éléments et directement applicable dans tout État membre.</p></p>
+<br/>
+<br/>
 </div>
     <!-- appel des coockies-->
-    <?php include("cookie.php"); ?>
+    <?php include("./ressources/cookie.php"); ?>
 
     <!-- pied de page du site (footer)-->
-    <?php include("pied_de_page.php"); ?>
+    <?php include("./ressources/pied_de_page.php"); ?>
 
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="./ressources/javascript/cookie.js"></script>
 </body>
 </html>

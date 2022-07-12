@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#corps {
+    text-align: center;
+    font-size: 22px;
+}
+#fin {
+    text-align: center;
+    font-size: 30px;
+}

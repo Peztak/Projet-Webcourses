@@ -1,0 +1,18 @@
+img {
+	height: 400px;
+	width: 100%;
+}
+.contenant {
+	position: relative;
+	text-align: center;
+	color: blue;
+	font-size: 80px;
+	text-decoration: underline;
+	text-align: center;
+}
+.texte {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
