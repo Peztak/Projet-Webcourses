@@ -3,16 +3,25 @@ h1 {
 	color: black;
 	font-size: 36px;
 }
+
 h2 {
     text-align: center;
-    height: 28px;
+    font-size: 28px;
 }
+
+#mentions {
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+
 #info {
     text-align: left;
     height: 22px;
 }
+
 h3 {
     text-align: center;
     color: red;
-    height: 18px;
+    font-size: 22px;
 }

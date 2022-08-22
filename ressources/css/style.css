@@ -11,3 +11,88 @@ body {
     text-align: center;
     font-size: 30px;
 }
+
+/* Trois colonnes côte à côte */
+.colonne {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 30px;
+}
+
+/* Changement de disposition des colonnes sur les petits écrans */
+@media screen and (max-width: 600px) {
+    .colonne {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Effet d'ombre pour les cartes */
+.carte {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+.carte img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+.boite {
+    padding: 0 16px;
+}
+
+.boite p {
+    font-size: 18px;
+}
+
+.boite::after, .ligne::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(55, 141, 216);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+#information {
+    color: red;
+}
+
+/* informations relatives aux tableaux */
+table {
+ width: 100%;
+ border-collapse: collapse;
+}
+th {
+ border: 3px solid black;
+ padding: 10px;
+}
+td {
+ border: 3px solid black;
+ padding: 10px;
+ text-align: center;
+}
+
+#classement {
+    text-align: center;
+    text-decoration: underline;
+}

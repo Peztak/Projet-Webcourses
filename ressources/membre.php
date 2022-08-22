@@ -1,4 +1,4 @@
-<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Connexion en tant que membre</button>
+<button class="utilisateur"onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Connexion en tant que membre</button>
 
 	<div id="id02" class="modal">
   		<span onclick="document.getElementById('id02').style.display='none'"

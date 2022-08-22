@@ -17,75 +17,77 @@
     <!-- appel pour le menu du site -->
 	<?php include("./ressources/menu.php"); ?>
     <br/>
-    <h1 id="title"><u><i><b>Informations concernant l'association et son personnel</b></i></u></h1>
+    <h1><u><i><b>Informations concernant l'association et son personnel</b></i></u></h1>
     <br/>
-    <p>Içi vous trouverez toutes les informations relatives à notre association, de nos coordonnées à notre personnel.</p>
+    <div id="corps">
+    <p>Içi vous trouverez toutes les informations relatives à notre association, de nos coordonnées à notre personnel.
     <br/>
-    <h2 id="info"><b><u>Coordonnées physique:</u></b></h2>
+    <h2 id="information"><b><u>Coordonnées physique :</u></b></h2>
     <br/>
-    <p>Notre association se situe au 45 rue des mathurins dans le 8ème arrondissement de Paris. Code postal: 75008</p>
+    Notre association se situe au 45 rue des mathurins dans le 8ème arrondissement de Paris.<u>Code postal :</u> 75008
     <br/>
-    <h2 id="info"><b><u>Coordonnées électronique:</u></b></h2>
+    <h2 id="information"><b><u>Coordonnées électronique :</u></b></h2>
     <br/>
-    <p>Si vous souhaitez nous contacter, l'onglet contact est à votre disposition.</p>
-    <p>Cependant vous pouvez toujours nous envoyer un mail à l'adresse électronique suivant: evenementiel_sio@sitewebdescourses.fr</p>
-    <h2 id="info"><b><u>Informations sur le personnel:</u></b></h2>
+    Si vous souhaitez nous contacter, l'onglet contact est à votre disposition.
+    Cependant vous pouvez toujours nous envoyer un mail à l'adresse électronique suivant : evenementiel_sio@sitewebdescourses.fr
+    <h2 id="information"><b><u>Informations sur le personnel :</u></b></h2>
     <br/>
-    <p>Notre association emploie 5 salariés à temps plein avec lesquels vous pouvez directement vous adresser:</p>
+    Notre association emploie 5 salariés à temps plein avec lesquels vous pouvez directement vous adresser :
     <br/>
-    <p>Responsable de l’évènementiel:</p>
-    <ul>
-        <li>n° téléphone: 01-45-45-45-13</li>
-        <li>adresse mail: évènement@webcourses.fr</li>
-    </ul>
+    <b><u>Responsable de l’évènementiel :</u></b>
     <br/>
-    <p>Commerciale responsable du lien avec les clubs sportifs:</p>
-    <ul>
-        <li>n° téléphone: 01-45-45-45-14</li>
-        <li>adresse mail: commercial@webcourses.fr</li>
-    </ul>
+    n° téléphone : 01-45-45-45-13
     <br/>
-    <p>Responsable de la gestion des inscriptions:</p>
-    <ul>
-        <li>n° téléphone: 01-45-45-45-15</li>
-        <li>adresse mail: inscriptions@webcourses.fr</li>
-    </ul>
+    adresse mail : évènement@webcourses.fr
     <br/>
-    <p>M.adminDB, gestionnaire de la base de données webcourses:</p>
-    <ul>
-        <li>n° téléphone: 01-45-45-45-16</li>
-        <li>adresse mail: adminDB@webcourses.fr</li>
-    </ul>
+    <b><u>Commerciale responsable du lien avec les clubs sportifs :</u></b>
     <br/>
-    <p>M.Stoker, gestionnaire de la base de données Javasotck:</p>
-    <ul>
-        <li>n° téléphone: 01-45-45-45-12</li>
-        <li>adresse mail: stoker@webcourses.fr</li>
-    </ul>
+    n° téléphone : 01-45-45-45-14
     <br/>
-    <h1 id="title"><u><i><b>Informations concernant notre Hébergeur</b></i></u></h1>
+    adresse mail : commercial@webcourses.fr
     <br/>
-    <p>Notre Hébergeur est la société RUNNING HIGHTECH dont nous vous communiquons leurs informations respectives.</p>
+    <b><u>Responsable de la gestion des inscriptions :</u></b>
     <br/>
-    <h2 id="info"><b><u>Coordonnées physique:</u></b></h2>
+    n° téléphone : 01-45-45-45-15
     <br/>
-    <p>RUNNING HIGHTECH se situe au 12 Boulevard de Levallois Prol à Levallois-Perret. Code postal: 92300</p>
+    adresse mail : inscriptions@webcourses.fr
     <br/>
-    <h2 id="info"><b><u>Informations sur le personnel:</u></b></h2>
+    <b><u>M.adminDB, gestionnaire de la base de données webcourses :</u></b>
     <br/>
-    <p>La société RUNNING HIGHTECH est ammenée à traiter des données à caractères personnels, voiçi donc les coordonnées des personnes responsable en la matière:</p>
+    n° téléphone : 01-45-45-45-16
     <br/>
-    <p>Mme Chaussetoi Socky, responsable des traitements des données:</p>
-    <ul>
-        <li>n° téléphone: 01-45-56-12-12</li>
-        <li>adresse mail: chaussetoi.runninghightech@gmail.com</li>
-    </ul>
+    adresse mail : adminDB@webcourses.fr
     <br/>
-    <p>Mme Loyal, déléguée à la protection des données (DPO):</p>
-    <ul>
-        <li>n° téléphone: 01-45-56-12-13</li>
-        <li>adresse mail: loyal.runninghightech@gmail.com</li>
-    </ul>
+    <b><u>M.Stoker, gestionnaire de la base de données Javasotck :</u></b>
+    <br/>
+    n° téléphone : 01-45-45-45-12
+    <br/>
+    adresse mail : stoker@webcourses.fr
+    <br/>
+    <h1><u><i><b>Informations concernant notre Hébergeur</b></i></u></h1>
+    <br/>
+    Notre Hébergeur est la société RUNNING HIGHTECH dont nous vous communiquons leurs informations respectives.
+    <br/>
+    <h2 id="information"><b><u>Coordonnées physique :</u></b></h2>
+    <br/>
+    RUNNING HIGHTECH se situe au 12 Boulevard de Levallois Prol à Levallois-Perret. <u>Code postal :</u> 92300
+    <br/>
+    <h2 id="information"><b><u>Informations sur le personnel :</u></b></h2>
+    <br/>
+    La société RUNNING HIGHTECH est ammenée à traiter des données à caractères personnels, voiçi donc les coordonnées des personnes responsable en la matière :
+    <br/>
+    <b><u>Mme Chaussetoi Socky, responsable des traitements des données :</u></b>
+    <br/>
+    n° téléphone : 01-45-56-12-12
+    <br/>
+    adresse mail : chaussetoi.runninghightech@gmail.com
+    <br/>
+    <b><u>Mme Loyal, déléguée à la protection des données (DPO) :</u></b>
+    <br/>
+    n° téléphone : 01-45-56-12-13
+    <br/>
+    adresse mail : loyal.runninghightech@gmail.com</p>
+    </div>
     <!-- appel des cookies-->
 	<?php include("./ressources/cookie.php"); ?>
 	<br/>

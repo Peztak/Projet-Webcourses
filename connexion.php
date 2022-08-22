@@ -16,15 +16,30 @@
 		<div class="texte"><u><b><i>Se connecter</i></b></u></div>
 	</div>
 </header>
-
 	<!-- appel pour le menu du site -->
 	<?php include("./ressources/menu.php"); ?>
-
+	<br/>
+	<br/>
+	<!-- appel pour le slider de la connexion -->
+	<?php include("./ressources/slider_2.php"); ?>
+<h1><u><b>Connexion à votre profil</b></u></h1>
+<div id="corps">
+	<p>Afin de vous d'acceder à votre compte et aux fonctionnalités de notre site, Veuillez choisir le format avec lequel vous vous êtes inscrit.
+	<br/>
+	Pour chaque format d'inscription, vous devez entrer les informations saisies lors de la création de votre compte.
+	</p>
+</div>
+<br/>
+<br/>
 	<?php include("./ressources/utilisateur.php"); ?>
-	<br></br>
+	<br/>
+	<br/>
 	<?php include("./ressources/membre.php"); ?>
-	<p>Vous n'avez pas de compte? <a href="first_connexion.php">créer un compte!</a></p>
-
+<div id="corps">
+	<p>Vous n'avez pas de compte? <a href="first_connexion.php">créer le votre dès maintenant!</a></p>
+</div>
+<br/>
+<br/>
 	<!-- appel des coockies-->
 	<?php include("./ressources/cookie.php"); ?>
 

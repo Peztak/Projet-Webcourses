@@ -1,3 +1,11 @@
+p a {
+  color: #04AA6D;
+}
+
+p a:hover {
+  opacity: 0.8;
+}
+
 input[type=text], input[type=password] {
   width: 90%;
   padding: 15px;
@@ -10,6 +18,44 @@ input[type=text], input[type=password] {
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
+}
+
+.first_utilisateur {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 26px;
+  border: none;
+  padding: 24px 48px;
+  margin: 8px 0;
+  cursor: pointer;
+  opacity: 0.9;
+  position: relative;
+  left: 50%;
+  -ms- transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.first_utilisateur:hover {
+  opacity: 0.8;
+}
+
+.first_membre {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 26px;
+  border: none;
+  padding: 24px 48px;
+  margin: 8px 0;
+  cursor: pointer;
+  opacity: 0.9;
+  position: relative;
+  left: 50%;
+  -ms- transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.first_membre:hover {
+  opacity: 0.8;
 }
 
 /*Caractéristiques du bouton*/

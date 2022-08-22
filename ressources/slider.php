@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -36,7 +36,7 @@
 
   	<div class="mySlides fade">
     	<div class="numbertext">5 / 5</div>
-    	<img src="./ressources/images/groupe.jpg">
+    	<img src="./ressources/images/groupe.png">
     	<div class="text">Profitez des plaisirs du sport avec vos amis!</div>
   	</div>
   	<!-- Next and previous buttons -->
@@ -53,7 +53,6 @@
   	<span class="dot" onclick="currentSlide(4)"></span>
   	<span class="dot" onclick="currentSlide(5)"></span>
 	</div>
-
 <script type="text/javascript" src="./ressources/javascript/slider.js"></script>
 </body>
 </html>

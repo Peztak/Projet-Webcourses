@@ -5,7 +5,6 @@
 	<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
-	<link rel="stylesheet" type="text/css" href="./ressources/css/table.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 	<title>webcourses</title>
 </head>

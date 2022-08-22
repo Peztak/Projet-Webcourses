@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/title.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/plan.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/newsletter.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
@@ -40,13 +41,19 @@
 		<br/>
 		<u><b>Adresse mail :</b></u> évènements@webcourses.fr
 		<br/>
-		<u><b>N° téléphone :</b></u> 01-45-45-45-13</p>
-	</div>
-	<br/>
-	<div id="corps">
-		<p>Notre site est équipé d'une newsletter!
+		<u><b>N° téléphone :</b></u> 01-45-45-45-13
 		<br/>
-		Renseigné votre adresse mail afin d'être informer sur les évènements futurs de l'association!</p>
+		<u><b>Plan d'accès au locaux de l'association :</b></u>
+		<br/>
+		<br/>
+		<a href="https://www.google.com/maps/place/45+Rue+des+Mathurins,+75008+Paris/@48.8731968,2.3238064,20z/data=!4m5!3m4!1s0x47e66e34c95efe33:0x26d8825869d3a707!8m2!3d48.8733009!4d2.3238419" title="Ouvrir sur Google Maps"><img src="./ressources/images/plan_maps.png"></i></a></p>
+	</div>
+	<div id="corps">
+		<p>Vous connaissez à présent l'équipe et le projet !
+		<br/>
+		Cela a éveillé votre curiosité ? Restez informé en souscrivant à notre newsletter.
+		<br/>
+		Vous recevrez les dernières actualités dans le secteur.</p>
 	</div>
 	<br/>
 	<br/>

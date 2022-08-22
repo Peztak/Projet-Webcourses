@@ -18,7 +18,7 @@
 	<?php include("./ressources/menu.php"); ?>
 	<br/>
 	<br/>
-	<!-- appel pour le menu du site -->
+	<!-- appel pour le slider de l'accueil -->
 	<?php include("./ressources/slider.php"); ?>
 	<h1><b><u>Bienvenue sur le site de l'association sportive Webcourses!</u></b></h1>
 	<div id="corps">
