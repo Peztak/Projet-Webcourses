@@ -3,7 +3,7 @@
   <span onclick="document.getElementById('news').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate">
     <div class="container">
-      <h1>S'abonner à la Newsletter Webcourses</h1>
+      <h1><u>S'abonner à la Newsletter Webcourses</u></h1>
       <p>Entrez les informations correspondantes afin de vous abonner</p>
       <hr>
       <label for="nom"><b>Nom</b></label>

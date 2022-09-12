@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="./ressources/css/header.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/contact.css">
 	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
+	<link rel="stylesheet" type="text/css" href="./ressources/css/menu.css">
 	<title>webcourses</title>
 </head>
 <body>
@@ -18,16 +19,16 @@
 </header>
 	<!-- appel pour le menu du site -->
 	<?php include("./ressources/menu.php"); ?>
-
+	<br/>
 	<div class="container">
 
-    	<label for="fname">Nom</label>
+    	<label for="fname"><b>Nom</b></label>
     	<input type="text" id="fname" name="firstname" placeholder="Entrer votre nom.">
 
-    <label for="lname">Prénom</label>
+    <label for="lname"><b>Prénom</b></label>
     <input type="text" id="lname" name="lastname" placeholder="Entrer votre prénom.">
 
-    	<label for="country">Pays</label>
+    	<label for="country"><b>Sélectionnez votre Pays</b></label>
     	<select id="country" name="country">
       	<option value="france">France</option>
       	<option value="england">Angleterre</option>
@@ -36,10 +37,12 @@
       	<option value="quebec">Quebec</option>
     	</select>
 
-    	<label for="subject">Sujet</label>
+    	<label for="subject"><b>Sujet</b></label>
     	<textarea id="subject" name="subject" placeholder="Ecrivez votre message" style="height:200px"></textarea>
 
     	<input type="submit" value="Envoyez">
+    	<br/>
+    	<br/>
 	</div>
 
 	<!-- appel des coockies-->

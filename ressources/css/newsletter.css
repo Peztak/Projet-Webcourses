@@ -3,7 +3,9 @@ input[type=text], input[type=mail] {
   padding: 15px;
   margin: 5px 0 22px 0;
   display: block;
-  border: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
   background: #f1f1f1;
 }
 
@@ -15,9 +17,9 @@ input[type=text]:focus, input[type=mail]:focus {
   background-color: #04AA6D;
   color: white;
   font-size: 26px;
-  border: none;
   padding: 24px 48px;
   cursor: pointer;
+  border: none;
   opacity: 0.9;
   position: relative;
   left: 50%;
@@ -32,6 +34,19 @@ button:hover {
 .cancelbtn {
   padding: 14px 20px;
   background-color: #f44336;
+}
+
+.cancelbtn:hover {
+  opacity: 0.8
+}
+
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #04AA6D;
+}
+
+.signupbtn:hover{
+  opacity: 0.8;
 }
 
 .cancelbtn, .signupbtn {
@@ -61,7 +76,7 @@ button:hover {
   width: 80%;
 }
 
-hr {
+h1 {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }

@@ -105,13 +105,13 @@
 <br/>En modifiant cookie vos préférences surla présente charte et refuser certaines catégories de cookies ou l'ensemble des cookies si vous le souhaitez.
 <br/>En modifiant les paramètres de votre navigateur. La fonction Aide de votre navigateur vous indique la marche à suivre.
 <br/><u>Par exemple :</u>
-<br/>Chrome: <a href="https://support.google.com/chrome/answer/95647?hl=fr&ref_topic=14666">En savoir plus</a>
-<br/>Internet Explorer: <a href="https://support.microsoft.com/fr-fr/windows">En savoir plus</a>
-<br/>Firefox: <a href="https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur?redirectlocale=fr&redirectslug=activer-desactiver-cookies">En savoir plus</a>
-<br/>Safari: <a href="https://support.apple.com/fr-fr/HT201265">En savoir plus</a>
-<br/>Opera™: <a href="https://help.opera.com/en/latest/web-preferences/#cookies">En savoir plus</a>
+<br/>Chrome: <a class="charte" href="https://support.google.com/chrome/answer/95647?hl=fr&ref_topic=14666">En savoir plus</a>
+<br/>Internet Explorer: <a class="charte" href="https://support.microsoft.com/fr-fr/windows">En savoir plus</a>
+<br/>Firefox: <a class="charte" href="https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur?redirectlocale=fr&redirectslug=activer-desactiver-cookies">En savoir plus</a>
+<br/>Safari: <a class="charte" href="https://support.apple.com/fr-fr/HT201265">En savoir plus</a>
+<br/>Opera™: <a class="charte" href="https://help.opera.com/en/latest/web-preferences/#cookies">En savoir plus</a>
 <br/>
-<br/>Pour en savoir plus sur les cookies, nous vous invitons à consulter Le site de la Commission Nationale de l'Informatique et des Libertés : <a href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser</a><br/>
+<br/>Pour en savoir plus sur les cookies, nous vous invitons à consulter Le site de la Commission Nationale de l'Informatique et des Libertés : <a class="charte" href="https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser">https://www.cnil.fr/fr/cookies-les-outils-pour-les-maitriser</a><br/>
 <br/>
 <br/>
 </div>

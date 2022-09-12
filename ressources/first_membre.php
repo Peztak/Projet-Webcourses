@@ -3,11 +3,11 @@
   <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
   <form class="modal-content animate">
     <div class="container">
-      <h1>Créer un compte membre</h1>
-      <p>Entrez les informations correspondantes afin de créer votre compte.</p>
+      <h1><u>Créer un compte membre</u></h1>
+      <p>Entrez les informations correspondantes afin de créer votre compte membre.</p>
       <hr>
-      <label for="email"><b>Mail</b></label>
-      <input type="text" placeholder="Entrez votre mail" name="email" required>
+      <label for="numero"><b>Numéro de Membre</b></label>
+      <input type="text" placeholder="Entrez votre numéro membre" name="numero" required>
 
       <label for="psw"><b>Mot de passe</b></label>
       <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>

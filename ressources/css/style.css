@@ -96,3 +96,7 @@ td {
     text-align: center;
     text-decoration: underline;
 }
+
+.charte:hover {
+    color: teal;
+} 

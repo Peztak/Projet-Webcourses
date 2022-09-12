@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./ressources/css/cookie.css">
 </head>
 <body>
+
 <header>
 	<div class="contenant">
 		<img src="./ressources/images/bannière.jpg">
@@ -29,11 +30,11 @@
 <br/>
 <br/>
 	<?php include("./ressources/first_utilisateur.php"); ?>
-	<br>
-	</br>
+	<br/>
 	<?php include("./ressources/first_membre.php"); ?>
 <br/>
 <br/>
+
 	<!-- appel des coockies-->
 	<?php include("./ressources/cookie.php"); ?>
 

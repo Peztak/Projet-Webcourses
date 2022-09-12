@@ -23,7 +23,7 @@
     	</div>
 
     	<div class="container" style="background-color:#f1f1f1">
-      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Supprimer</button>
+      		<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
       		<span class="psw">Vous avez oublié votre <a href="#">mot de passe?</a></span>
     	</div>
     </form>

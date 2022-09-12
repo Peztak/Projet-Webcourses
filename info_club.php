@@ -499,7 +499,7 @@
 	echo '<div class="ligne">
 		<div class="colonne">
 			<div class="carte">
-				<img src="./ressources/images/asso1.jpg">
+				<img src="./ressources/images/asso7.jpg">
 				<div class="boite">';
 					
 					$reponse = $bdd->query("select * from club where cl_id=7");
@@ -568,7 +568,7 @@
 							<td>5ème</td>
 						</tr>
 					</table>
-					<p><a href="https://foulees.com/-bordeaux-"><button class="button">Visiter le site</button></a></p>
+					<p><a href="https://www.manin-sport-paris.com/"><button class="button">Visiter le site</button></a></p>
 				</div>
 			</div>
 		</div>';
